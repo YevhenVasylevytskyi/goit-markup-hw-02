@@ -5,6 +5,8 @@
   --secondary-color: #757575;
   --accent-color: #2196f3;
   --footer-color: #ffffff;
+  --button-color: #212121;
+  --background-button-color: #f5f4fa;
 }
 
 body {
@@ -82,7 +84,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--footer-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -92,7 +94,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--footer-color);
 }
 
 .feature-title {
@@ -144,7 +146,7 @@ body {
 /*=====FOOTER=========*/
 
 .logo-footer {
-  /*color: #ffffff;*/
+  /*color: var(--footer-color);*/
 }
 
 .footer-link {
@@ -154,3 +156,41 @@ body {
   letter-spacing: 0.03em;
   /*color: var(--footer-color);*/
 }
+
+/*=======END FOOTER=======*/
+
+/*========FILTER========*/
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--button-color);
+  background-color: var(--background-button-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  cursor: pointer;
+  color: var(--background-button-color);
+  background-color: var(--accent-color);
+}
+/*===========PROJECT===========*/
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--button-color);
+}
+
+.projects-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/*===========END PROJECT===========*/
