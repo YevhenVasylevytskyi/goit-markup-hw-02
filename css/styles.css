@@ -3,6 +3,7 @@
   --logo-font: Raleway, sans-serif;
   --main-color: #000000;
   --secondary-color: #757575;
+  --secondary-main-button: #188ce8;
   --accent-color: #2196f3;
   --footer-color: #ffffff;
   --button-color: #212121;
@@ -96,6 +97,12 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--footer-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--secondary-main-button);
+  cursor: pointer;
 }
 
 .feature-title {
