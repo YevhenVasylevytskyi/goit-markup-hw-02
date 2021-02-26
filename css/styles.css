@@ -3,11 +3,11 @@
   --logo-font: Raleway, sans-serif;
   --main-color: #000000;
   --secondary-color: #757575;
-  --secondary-main-button: #188ce8;
   --accent-color: #2196f3;
   --footer-color: #ffffff;
   --button-color: #212121;
   --background-button-color: #f5f4fa;
+  --footer-link-contact-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -33,6 +33,7 @@ body {
 /*=====HEADER=======*/
 
 .logo {
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -52,7 +53,7 @@ body {
   color: var(--main-color);
 }
 
-.nav-link-active {
+.current {
   color: var(--accent-color);
 }
 
@@ -97,11 +98,6 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--footer-color);
-}
-
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: var(--secondary-main-button);
   cursor: pointer;
 }
 
@@ -154,13 +150,15 @@ body {
 }
 
 .footer-link {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   /*color: var(--footer-color);*/
 }
 
+.footer-link-contact {
+  /*color: var(--footer-link-contact-color);*/
+}
 /*=======END FOOTER=======*/
 
 /*========FILTER========*/
