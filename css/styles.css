@@ -4,9 +4,11 @@
   --main-color: #000000;
   --secondary-color: #757575;
   --accent-color: #2196f3;
+  --herro-color: #2f303a;
   --footer-color: #ffffff;
   --button-color: #212121;
   --background-button-color: #f5f4fa;
+  --backround-footer: #2f303a;
   --footer-link-contact-color: rgba(255, 255, 255, 0.6);
 }
 /*общие стили*/
@@ -89,6 +91,9 @@ body {
 /*=====MAIN=======*/
 
 /*герой*/
+.herro {
+  background-color: var(--herro-color);
+}
 .herro-title {
   font-weight: 900;
   font-size: 44px;
@@ -135,6 +140,13 @@ body {
   letter-spacing: 0.03em;
 }
 /*члены команды*/
+.team {
+  background-color: var(--secondary-color);
+}
+
+.team-item {
+  background-color: var(--footer-color);
+}
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -155,21 +167,23 @@ body {
 /*=====END MAIN=======*/
 
 /*=====FOOTER=========*/
-
+.footer {
+  background-color: var(--backround-footer);
+}
 /*цвет лого*/
 .logo-footer {
-  /*color: var(--footer-color);*/
+  color: var(--footer-color);
 }
 /*адресс*/
 .footer-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: var(--footer-color);*/
+  color: var(--footer-color);
 }
-/*Будет применено с темным фоном*/
+
 .footer-link-contact {
-  /*color: var(--footer-link-contact-color);*/
+  color: var(--footer-link-contact-color);
 }
 /*=======END FOOTER=======*/
 
