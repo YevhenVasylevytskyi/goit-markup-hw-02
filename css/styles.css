@@ -5,6 +5,7 @@
   --secondary-color: #757575;
   --accent-color: #2196f3;
   --herro-color: #2f303a;
+  --team-background-color: #f5f4fa;
   --footer-color: #ffffff;
   --button-color: #212121;
   --background-button-color: #f5f4fa;
@@ -141,7 +142,7 @@ body {
 }
 /*члены команды*/
 .team {
-  background-color: var(--secondary-color);
+  background-color: var(--team-background-color);
 }
 
 .team-item {
